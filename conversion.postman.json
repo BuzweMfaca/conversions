@@ -1,0 +1,124 @@
+{
+	"info": {
+		"_postman_id": "dfd23f18-686a-42f7-b00e-43f3b97c1d91",
+		"name": "System Conversion",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Area",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/conversion/area/metric/100",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"conversion",
+						"area",
+						"metric",
+						"100"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Length",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/conversion/length/imperial/42.2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"conversion",
+						"length",
+						"imperial",
+						"42.2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mass",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/conversion/mass/metric/450",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"conversion",
+						"mass",
+						"metric",
+						"450"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Temperature",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/conversion/temperature/imperial/0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"conversion",
+						"temperature",
+						"imperial",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Volume",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/conversion/volume/imperial/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"conversion",
+						"volume",
+						"imperial",
+						"10"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
